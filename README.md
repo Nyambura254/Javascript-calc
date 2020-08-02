@@ -1,5 +1,6 @@
 # Javascript-calc
-![Alt text](/relative/path/to/calc.png?raw=true "Final calc looks")
+![calc](https://user-images.githubusercontent.com/45118623/89126724-abee9280-d4f0-11ea-804b-cc62999c84bb.png)
+
 
 ## HTML FILE(index.html)
 
