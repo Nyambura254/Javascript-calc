@@ -68,7 +68,7 @@ function calculate(firstOperand, secondOperand, operator) {
 
   return secondOperand;
 }
-
+// Resetting our calc to defaults
 function resetCalculator() {
   calculator.displayValue = '0';
   calculator.firstOperand = null;
