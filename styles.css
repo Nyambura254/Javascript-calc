@@ -132,16 +132,17 @@ button:hover {
   background-color: #eaeaea;
 }
 
+/*class operator styles*/
 .operator {
   color: #337cac;
 }
-
+/* class clear all*/
 .all-clear {
   background-color: #f0595f;
   border-color: #b0353a;
   color: #fff;
 }
-
+/*class clear all hover button*/
 .all-clear:hover {
   background-color: #f17377;
 }
