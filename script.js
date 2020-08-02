@@ -21,7 +21,7 @@ function inputDigit(digit) {// initialize our function and pass igit as the para
 
 // The inputDecimal ()
 function inputDecimal(dot) {
-  if (calculator.waitingForSecondOperand === true) {
+  if (calculator.waitingForSecondOperand === true) {// that is if we start adding values
     calculator.displayValue = '0.';
     calculator.waitingForSecondOperand = false;
     return;
@@ -31,7 +31,7 @@ function inputDecimal(dot) {
     calculator.displayValue += dot;
   }
 }
-
+// HandleOperators 
 function handleOperator(nextOperator) {
   const { firstOperand, displayValue, operator } = calculator;
   const inputValue = parseFloat(displayValue);
