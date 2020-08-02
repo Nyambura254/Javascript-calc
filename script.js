@@ -19,6 +19,7 @@ function inputDigit(digit) {// initialize our function and pass igit as the para
   }
 }
 
+// The inputDecimal ()
 function inputDecimal(dot) {
   if (calculator.waitingForSecondOperand === true) {
     calculator.displayValue = '0.';

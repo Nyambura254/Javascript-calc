@@ -26,3 +26,4 @@ class="calculator-keys"
 
 1. Defaults values for calc
 
+2. The inputDecimal ()
