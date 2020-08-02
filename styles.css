@@ -158,7 +158,7 @@ button:hover {
 .equal-sign:hover {
   background-color: #4e9ed4;
 }
-
+/*calc keys class styling*/
 .calculator-keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
