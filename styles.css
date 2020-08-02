@@ -146,7 +146,7 @@ button:hover {
 .all-clear:hover {
   background-color: #f17377;
 }
-
+/*class equal sign*/
 .equal-sign {
   background-color: #2e86c0;
   border-color: #337cac;
@@ -154,7 +154,7 @@ button:hover {
   height: 100%;
   grid-area: 2 / 4 / 6 / 5;
 }
-
+/*class equal sign button hover*/
 .equal-sign:hover {
   background-color: #4e9ed4;
 }
