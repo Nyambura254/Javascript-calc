@@ -75,7 +75,7 @@ function resetCalculator() {
   calculator.waitingForSecondOperand = false;
   calculator.operator = null;
 }
-
+//Update our calc display
 function updateDisplay() {
   const display = document.querySelector('.calculator-screen');
   display.value = calculator.displayValue;

@@ -29,3 +29,4 @@ class="calculator-keys"
 2. The inputDecimal ()
 3. HandleOperators 
 4. calcuration 
+5. Update our calc display
