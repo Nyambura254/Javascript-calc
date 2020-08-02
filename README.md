@@ -28,3 +28,4 @@ class="calculator-keys"
 
 2. The inputDecimal ()
 3. HandleOperators 
+4. calcuration 

@@ -54,7 +54,7 @@ function handleOperator(nextOperator) {
   calculator.waitingForSecondOperand = true;
   calculator.operator = nextOperator;
 }
-
+// calcuration 
 function calculate(firstOperand, secondOperand, operator) {
   if (operator === '+') {
     return firstOperand + secondOperand;
