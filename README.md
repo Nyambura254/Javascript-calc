@@ -10,3 +10,13 @@ body style="background-color: cyan"
 ``` html
 style="background-color: #c6c4ff"
 ```
+
+##### Set a div container to hold all components of our cals characteristics (calculator-keys)
+
+``` html
+class="calculator-keys"
+```
+.
+.
+.
+##### see all documentation in html filecomments (index.html)
