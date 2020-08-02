@@ -1,6 +1,6 @@
 # Javascript-calc
 
-## HTML FILE
+## HTML FILE(index.html)
 
 #### I have used styling in html body to set background-color to cyan 
 ``` html
@@ -20,3 +20,9 @@ class="calculator-keys"
 .
 .
 ##### see all documentation in html filecomments (index.html)
+..................................................................................................................
+
+## Script file (script.js)
+
+1. Defaults values for calc
+

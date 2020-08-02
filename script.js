@@ -6,7 +6,7 @@ const calculator = {
   operator: null,
 };
 
-// start putting our values
+// start putting our values by setting defaults values for calc
 function inputDigit(digit) {// initialize our function and pass igit as the parameter
   const { displayValue, waitingForSecondOperand } = calculator;// pass two paramenters , initial count and what whe inputs
 
