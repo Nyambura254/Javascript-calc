@@ -1,4 +1,5 @@
 # Javascript-calc
+![Alt text](/relative/path/to/calc.png?raw=true "Final calc looks")
 
 ## HTML FILE(index.html)
 
