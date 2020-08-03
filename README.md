@@ -34,3 +34,4 @@ class="calculator-keys"
 3. HandleOperators 
 4. calcuration 
 5. Update our calc display
+6. Ressetting calc
