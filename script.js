@@ -2,22 +2,24 @@
 const calculator = {
   displayValue: '0',// you can set default value, count start at zero
   firstOperand: null,// you start with no operand like *,+ etc
-  waitingForSecondOperand: false,// no wait untill u put
+  waitingForSecondOperand: false,// wait untill u input
   operator: null,
 };
 
 // start putting our values by setting defaults values for calc
-function inputDigit(digit) {// initialize our function and pass igit as the parameter
+function inputDigit(digit) {// initialize our function and pass digit as the parameter
+ //distructuring 
   const { displayValue, waitingForSecondOperand } = calculator;// pass two paramenters , initial count and what whe inputs
 
   if (waitingForSecondOperand === true) {// if at initial count
     calculator.displayValue = digit;// display zero
     calculator.waitingForSecondOperand = false;// waitingForSecondOperand  becomes false
   } else {
-    calculator.displayValue =// if at initial state
-      displayValue === '0' ? digit : displayValue + digit;// increment waitingForSecondOperand 
+    calculator.displayValue = // if at initial state
+      displayValue === '0' ? digit : displayValue + digit;// increment waitingForSecondOperand (? means tynary)
   }
 }
+
 
 // The inputDecimal ()
 function inputDecimal(dot) {
@@ -32,7 +34,8 @@ function inputDecimal(dot) {
   }
 }
 // HandleOperators 
-function handleOperator(nextOperator) {
+function handleOperator(nextOperator) {//initialization of function handleOperator and pass a parametor
+  //destructing
   const { firstOperand, displayValue, operator } = calculator;
   const inputValue = parseFloat(displayValue);
 
@@ -54,7 +57,7 @@ function handleOperator(nextOperator) {
   calculator.waitingForSecondOperand = true;
   calculator.operator = nextOperator;
 }
-// calcuration 
+// calculation 
 function calculate(firstOperand, secondOperand, operator) {
   if (operator === '+') {
     return firstOperand + secondOperand;
@@ -76,9 +79,11 @@ function resetCalculator() {
   calculator.operator = null;
 }
 //Update our calc display
+
 function updateDisplay() {
   const display = document.querySelector('.calculator-screen');
   display.value = calculator.displayValue;
+  
 }
 
 updateDisplay();
